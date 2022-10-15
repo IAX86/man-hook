@@ -1,8 +1,8 @@
 pkgname=man-hook
-pkgver=0.1.1
-pkgrel=1
+pkgver=0.1
+pkgrel=2
 depends=( 'man-db' 'pacman' )
-source=( 'man.hook' )
+source=( 'man.hook' 'man.hook.sig' )
 md5sums=SKIP
 validgpgkeys=SKIP
 
