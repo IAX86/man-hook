@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Path
+Target = usr/share/man/*
+
+[Action]
+Description = Processing trigger of man-db...
+When = PostTransaction
+Exec = /usr/bin/mandb --quiet
+Depends = man-db
