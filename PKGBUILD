@@ -1,5 +1,5 @@
 pkgname=man-hook
-pkgver=2022.10
+pkgver=0.1.1
 pkgrel=1
 depends=( 'man-db' 'pacman' )
 source=( 'man.hook' )
