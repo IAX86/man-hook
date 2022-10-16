@@ -8,5 +8,5 @@ Target = usr/share/man/*
 [Action]
 Description = Processing trigger of man-db...
 When = PostTransaction
-Exec = /usr/bin/mandb --quiet
+Exec = /usr/bin/mandb --quiet --no-purge
 Depends = man-db
